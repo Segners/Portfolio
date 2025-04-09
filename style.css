@@ -4,102 +4,100 @@
 #skills,
 #portfolio,
 #contact {
-    margin-top: 4rem;
-    padding-top: 4rem;
+  margin-top: 4rem;
+  padding-top: 4rem;
 }
 #about h2,
 #skills h2,
 #portfolio h2,
 #contact h2 {
-    margin-bottom: 3rem;
+  margin-bottom: 3rem;
 }
 #contact {
-    padding-bottom: 4rem;
+  padding-bottom: 4rem;
 }
-
 
 /* Animation de fondu général */
 body {
-    animation: fadeIn 1.5s ease-out forwards;
-    opacity: 0;
-    background: rgba(0, 0, 0, 0.9) !important;
-
+  animation: fadeIn 1.5s ease-out forwards;
+  opacity: 0;
+  background: rgba(0, 0, 0, 0.9) !important;
 }
 
 @keyframes fadeIn {
-    0% { opacity: 0; }
-    100% { opacity: 1; }
+  0% {
+    opacity: 0;
   }
-  
-  
+  100% {
+    opacity: 1;
+  }
+}
 
 .navbarScroll {
-    background: rgba(0, 0, 0, 0.9) !important;
-  }
-  
-  /******* HEADINGS HIERARCHY *******/
+  background: rgba(0, 0, 0, 0.9) !important;
+}
+
+/******* HEADINGS HIERARCHY *******/
 h1 {
-    font-size: 2.5rem;
-    line-height: 1.2;
-    margin-bottom: 1.5rem;
+  font-size: 2.5rem;
+  line-height: 1.2;
+  margin-bottom: 1.5rem;
 }
 
 h2 {
-    font-size: 2rem;
-    margin-bottom: 1rem;
+  font-size: 2rem;
+  margin-bottom: 1rem;
 }
 
 h3.card-title {
-    font-size: 1.5rem;
-    color: #2c3e50;
-    font-weight: 600;
+  font-size: 1.5rem;
+  color: #2c3e50;
+  font-weight: 600;
 }
 
 /******* CONTRASTE COULEURS *******/
 .hero_text {
-    background-color: whitesmoke; 
-    padding: 20px;
-    border-radius: 10px;
+  background-color: whitesmoke;
+  padding: 20px;
+  border-radius: 10px;
 }
 
 .navbarDark {
-    background-color: #1a1a1a !important;
+  background-color: #1a1a1a !important;
 }
-
 
 /* hero background image */
 .bgimage {
-    height: 100vh;
-    background: url("images/bgimage1.svg") center/cover no-repeat fixed;
-    position: relative;
-    overflow: hidden;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 100vh;
+  background: url("images/bgimage1.svg") center/cover no-repeat fixed;
+  position: relative;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .hero_title {
-    font-size: 4.5rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 4.5rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .hero_desc {
-    font-size: 2rem;
-    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+  font-size: 2rem;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
 }
 .hero-text {
-    text-align: center;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    color: white;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
 }
-
 
 /*Section about */
 /* Couleurs pour la section About */
 #about {
-    color: white; /* Texte principal en blanc */
-    background-color: #1a1a1a; /* Fond sombre pour meilleur contraste */
+  color: white;
+  background-color: #1a1a1a;
 }
 
 #about h1,
@@ -108,25 +106,25 @@ h3.card-title {
 #about h4,
 #about h5,
 #about h6 {
-    color: #c488cf !important; 
+  color: #c488cf !important;
 }
 
 #about .text-muted {
-    color: #c9c9c9 !important; 
+  color: #c9c9c9 !important;
 }
 
 #about a {
-    color: #c488cf; 
+  color: #c488cf;
 }
 
 #about .about-content {
-    background-color: #2a2a2a; 
+  background-color: #2a2a2a;
 }
 
 /* skills */
 #skills {
-    color: white; /* Texte principal en blanc */
-    background-color: #2a2a2a; /* Fond sombre pour meilleur contraste */
+  color: white;
+  background-color: #2a2a2a;
 }
 #skills h1,
 #skills h2,
@@ -134,140 +132,151 @@ h3.card-title {
 #skills h4,
 #skills h5,
 #skills h6 {
-    color: #c488cf !important; 
+  color: #c488cf !important;
 }
 
 /******* SKILLS CARDS *******/
 .e-card {
-    margin: 10px auto; 
-    background: transparent;
-    box-shadow: 0px 8px 28px -9px rgba(0,0,0,0.45);
-    position: relative;
-    width: 380px;
-    height: 400px;
-    border-radius: 16px;
-    overflow: hidden;
-    transition: transform 0.3s ease; /* Ajout d'une transition */
+  margin: 10px auto;
+  background: transparent;
+  box-shadow: 0px 8px 28px -9px rgba(0, 0, 0, 0.45);
+  position: relative;
+  width: 380px;
+  height: 400px;
+  border-radius: 16px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
 }
 
 .e-card:hover {
-    transform: translateY(-10px); /* Effet au survol */
+  transform: translateY(-10px);
 }
 
 .wave {
-    position: absolute;
-    width: 670px;
-    height: 850px;
-    opacity: 0.6;
-    left: 0;
-    top: 0;
-    margin-left: -50%;
-    margin-top: -70%;
-    background: linear-gradient(744deg, #af40ff, #5b42f3 60%, #00ddeb);
+  position: absolute;
+  width: 670px;
+  height: 850px;
+  opacity: 0.6;
+  left: 0;
+  top: 0;
+  margin-left: -50%;
+  margin-top: -70%;
+  background: linear-gradient(744deg, #af40ff, #5b42f3 60%, #00ddeb);
 }
 
 /* Adaptation pour le contenu */
 .skill-content {
-    position: relative;
-    z-index: 2;
-    padding: 20px;
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+  position: relative;
+  z-index: 2;
+  padding: 20px;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 .infotop {
-    text-align: center;
-    font-size: 20px;
-    color: #ffffff;
-    font-weight: 600;
-    margin-bottom: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: #ffffff;
+  font-weight: 600;
+  margin-bottom: 15px;
 }
 
 .skill-image {
-    width: 80px !important; /* Ajustement pour les icônes */
-    height: 80px !important;
-    margin-bottom: 15px;
-    filter: drop-shadow(2px 2px 4px rgba(0,0,0,0.3));
+  width: 80px !important; /* Ajustement pour les icônes */
+  height: 80px !important;
+  margin-bottom: 15px;
+  filter: drop-shadow(2px 2px 4px rgba(0, 0, 0, 0.3));
 }
 
 /* Animation */
 @keyframes wave {
-    0% { transform: rotate(0deg); }
-    100% { transform: rotate(360deg); }
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }
 
 .wave {
-    border-radius: 40%;
-    animation: wave 55s infinite linear;
+  border-radius: 40%;
+  animation: wave 55s infinite linear;
 }
 
 .e-card:hover .wave {
-    animation-duration: 20s; /* Accélère l'animation au survol */
+  animation-duration: 20s;
 }
 
 /* portfolio */
+#portfolio h2 {
+  color: #00ddeb;
+}
 #portfolio p {
-    text-align: center;
+  text-align: center;
 }
 
 /* contact */
+
+#contact {
+  color: #00ddeb;
+}
 .contactColumn {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .contactColumn i {
-    color: #198754;
+  color: #00ddeb;
 }
 
 /* footer */
 
-  @media (max-width: 768px) {
-    .e-card {
-        width: 100%;
-        max-width: 300px;
-        height: 400px;
-    }
-    
-    .skill-image {
-        width: 60px !important;
-        height: 60px !important;
-    }
-    
-    .infotop {
-        font-size: 18px;
-    }
+@media (max-width: 768px) {
+  .e-card {
+    width: 100%;
+    max-width: 300px;
+    height: 400px;
+  }
+
+  .skill-image {
+    width: 60px !important;
+    height: 60px !important;
+  }
+
+  .infotop {
+    font-size: 18px;
+  }
 }
 
 /* Effet de profondeur */
 .e-card::before {
-    content: '';
-    position: absolute;
-    inset: 0;
-    background: rgba(255, 255, 255, 0.05);
-    backdrop-filter: blur(5px);
-    z-index: 1;
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(5px);
+  z-index: 1;
 }
 
-
-
 /* Curseur clignotant */
-.hero_title::after, .hero_desc::after {
-    content: '|';
-    animation: blink 1s step-end infinite;
-    opacity: 1;
+.hero_title::after,
+.hero_desc::after {
+  content: "|";
+  animation: blink 1s step-end infinite;
+  opacity: 1;
 }
 
 @keyframes blink {
-    50% { opacity: 0; }
+  50% {
+    opacity: 0;
+  }
 }
 
 /* Quand l'animation est terminée */
-.typed .hero_title::after, 
+.typed .hero_title::after,
 .typed .hero_desc::after {
-    display: none;
+  display: none;
 }
-
