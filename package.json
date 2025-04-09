@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "lottie-minify": "^0.1.11",
+    "lottie-web": "^5.12.2"
+  }
+}
