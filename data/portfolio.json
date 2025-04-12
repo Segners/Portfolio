@@ -1,18 +1,18 @@
 [
     {
-        "image": "ecobliss.png",
+        "image": "ecobliss.webp",
         "title": "Eco Bliss Bath",
         "text": "Automatisation des tests de la boutique en ligne Eco Bliss Bath.",
         "link": "https://github.com/Segners/FormationOC_Projet10"
     },
     {
-        "image": "SpaceBobble.png",
+        "image": "SpaceBobble.webp",
         "title": "Space Bobble",
         "text": "Jeu co-créé inspiré de Drol créé en Java avec multijoueur possible.",
         "link": "https://github.com/Aurel-2/SpaceBobble"
     },
     {
-        "image": "image3.png",
+        "image": "image3.webp",
         "title": "Kasa",
         "text": "Application de location immobilière crée avec React + Vite",
         "links": [

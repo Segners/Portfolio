@@ -1,50 +1,50 @@
 [
   {
-    "image": "html-css.png",
+    "image": "html-css.webp",
     "title": "HTML - CSS",
     "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
   },
   {
-    "image": "js.png",
+    "image": "js.webp",
     "title": "javascript",
     "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
   },
   {
-    "image": "react.png",
+    "image": "react.webp",
     "title": "React",
     "text": "Création d’applications React, création de composants et manipulation de leur état"
   },
 
   {
-    "image": "C.png",
+    "image": "C.webp",
     "title": "C/C++",
     "text": "Développement de systèmes et applications performantes, programmation orientée objet, conception d'algorithmes optimisés pour le traitement temps réel"
   },
 
   {
-    "image": "java.png",
+    "image": "java.webp",
     "title": "Java",
     "text": "Développement d'applications robustes et scalables, Automatisation des tests avec JUnit, programmation orientée objet pour des projets modulaires"
   },
 
   {
-    "image": "python.png",
+    "image": "python.webp",
     "title": "Python",
     "text": "Développement d'outils et scripts d'automatisation, conception d'algorithmes classiques, résolution de problèmes complexes"
   },
 
   {
-    "image": "gestion-de-projet.png",
+    "image": "gestion-de-projet.webp",
     "title": "Gestion de projet",
     "text": "Analyse des besoins d’un client, définition d’une solution technique répondant aux besoins fonctionnelle, planification du projet"
   },
   {
-    "image": "optimisation-et-debug.png",
+    "image": "optimisation-et-debug.webp",
     "title": "Optimisation et debug",
     "text": "Identification des anomalies et correction d’un site existant, optimisation SEO et performance et publication d’un site en ligne"
   },
   {
-    "image": "test.png",
+    "image": "test.webp",
     "title": "Test",
     "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
   }

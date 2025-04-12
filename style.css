@@ -298,12 +298,11 @@ h3.card-title {
 }
 
 
-
 #portfolio .btn:hover {
   background-color: #00ddeb;
   border-color: #00ddeb;
 }
-#portfolio h2 {
+#portfolio h1 {
   color: #00ddeb;
 }
 #portfolio p {
