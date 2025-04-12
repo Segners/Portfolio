@@ -37,7 +37,7 @@ function createSkillsFromJSON() {
       data.forEach((item, index) => {
         const card = document.createElement("div");
         card.classList.add("col-lg-4", "mt-4");
-        
+
         // Dans createSkillsFromJSON()
         card.innerHTML = `
                 <div class="e-card">
@@ -77,12 +77,11 @@ function createPortfolioFromJSON() {
       data.forEach((item, index) => {
         const card = document.createElement("div");
         card.classList.add("col-lg-4", "mt-4");
-        let buttonsHTML = '';
+        let buttonsHTML = "";
 
         // Check if item has links (either a single link or multiple)
         if (item.link) {
-          buttonsHTML +=
-                          `<a href="${item.link}" 
+          buttonsHTML += `<a href="${item.link}" 
                               class="btn btn-primary" 
                               target="_blank" 
                               rel="noopener">
@@ -92,7 +91,7 @@ function createPortfolioFromJSON() {
         }
         // If item has multiple links
         if (item.links && Array.isArray(item.links)) {
-          item.links.forEach(link => {
+          item.links.forEach((link) => {
             buttonsHTML += `
               <a href="${link.url}" 
                   class="btn btn-primary" 
@@ -127,7 +126,6 @@ function createPortfolioFromJSON() {
       });
     });
 }
-
 
 // Typing effect function
 function typeWriter(element, text, speed = 100) {

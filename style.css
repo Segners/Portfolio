@@ -34,7 +34,7 @@ body {
 }
 
 .navbarScroll {
- background-color: #1a1a1a !important;
+  background-color: #1a1a1a !important;
 }
 
 /******* HEADINGS HIERARCHY *******/
@@ -210,7 +210,6 @@ h3.card-title {
   animation-duration: 20s;
 }
 
-
 @media (max-width: 768px) {
   .e-card {
     width: 100%;
@@ -262,11 +261,10 @@ h3.card-title {
 
 /* Portfolio */
 #portfolio .card-img-top {
-  width: 100%;         
-  height: 200px;        
-  object-fit: cover;    
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
-
 
 #portfolio .card {
   background-color: #2a2a2a;
@@ -297,7 +295,6 @@ h3.card-title {
   border-color: #6c757d;
 }
 
-
 #portfolio .btn:hover {
   background-color: #00ddeb;
   border-color: #00ddeb;
@@ -313,6 +310,8 @@ h3.card-title {
 
 #contact {
   color: #00ddeb;
+  background-color: #2a2a2a;
+
 }
 .contactColumn {
   display: flex;
@@ -321,8 +320,22 @@ h3.card-title {
 }
 .contactColumn i {
   color: #00ddeb;
+  font-size: 3rem; 
+
 }
 
+
+
 /* footer */
+footer {
+  position: relative;
+  background-color: #1a1a1a;
+  bottom: 0;
+  width: 100%;
+  font-family: 'Votre police d\'écriture', sans-serif;
+}
 
-
+footer a:hover {
+  transform: scale(1.1);
+  transition: all 0.3s ease;
+}
