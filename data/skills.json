@@ -1,19 +1,38 @@
 [
   {
-    "image": "html-css.jpg",
+    "image": "html-css.png",
     "title": "HTML - CSS",
     "text": "Intégration d’interfaces responsives et accessibles, utilisation de maquettes Figma, développement d’animations CSS"
   },
   {
-    "image": "js.jpg",
+    "image": "js.png",
     "title": "javascript",
     "text": "Manipulation du DOM, création d’éléments dynamiques, gestion de données de formulaires"
   },
   {
-    "image": "react.jpg",
+    "image": "react.png",
     "title": "React",
     "text": "Création d’applications React, création de composants et manipulation de leur état"
   },
+
+  {
+    "image": "C.png",
+    "title": "C/C++",
+    "text": "Développement de systèmes et applications performantes, programmation orientée objet, conception d'algorithmes optimisés pour le traitement temps réel"
+  },
+
+  {
+    "image": "java.png",
+    "title": "Java",
+    "text": "Développement d'applications robustes et scalables, Automatisation des tests avec JUnit, programmation orientée objet pour des projets modulaires"
+  },
+
+  {
+    "image": "python.png",
+    "title": "Python",
+    "text": "Développement d'outils et scripts d'automatisation, conception d'algorithmes classiques, résolution de problèmes complexes"
+  },
+
   {
     "image": "gestion-de-projet.png",
     "title": "Gestion de projet",
@@ -28,23 +47,7 @@
     "image": "test.png",
     "title": "Test",
     "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
-  },
-
-  {
-    "image": "test.png",
-    "title": "C/C++",
-    "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
-  },
-
-  {
-    "image": "test.png",
-    "title": "Java",
-    "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
-  },
-
-  {
-    "image": "test.png",
-    "title": "Python",
-    "text": "Tests exploratoires, unitaires et d’intégration, définition d’une stratégie de test et d’un rédaction d’un cahier de recette, automatisation de tests E2E et d’API"
   }
+
+
 ]

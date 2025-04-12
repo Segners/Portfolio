@@ -37,6 +37,7 @@ function createSkillsFromJSON() {
       data.forEach((item, index) => {
         const card = document.createElement("div");
         card.classList.add("col-lg-4", "mt-4");
+        
         // Dans createSkillsFromJSON()
         card.innerHTML = `
                 <div class="e-card">
@@ -63,7 +64,6 @@ function createSkillsFromJSON() {
       });
     });
 }
-// Function to dynamically create HTML elements from the JSON file
 function createPortfolioFromJSON() {
   const container = document.querySelector("#portfolio .container");
   let row = document.createElement("div");
@@ -77,16 +77,43 @@ function createPortfolioFromJSON() {
       data.forEach((item, index) => {
         const card = document.createElement("div");
         card.classList.add("col-lg-4", "mt-4");
-        card.innerHTML = `
-                <div class="card portfolioContent">
-                    <img class="card-img-top" src="images/${item.image}" alt="Projet ${item.title}" loading="lazy">
-                    <div class="card-body">
-                        <h3 class="card-title">${item.title}</h3> <!-- Changé de h4 à h3 -->
-                        <p class="card-text">${item.text}</p>
-                        <!-- ... -->
-                    </div>
-                </div>
+        let buttonsHTML = '';
+
+        // Check if item has links (either a single link or multiple)
+        if (item.link) {
+          buttonsHTML +=
+                          `<a href="${item.link}" 
+                              class="btn btn-primary" 
+                              target="_blank" 
+                              rel="noopener">
+                            Voir le projet
+                          </a>
+                        `;
+        }
+        // If item has multiple links
+        if (item.links && Array.isArray(item.links)) {
+          item.links.forEach(link => {
+            buttonsHTML += `
+              <a href="${link.url}" 
+                  class="btn btn-primary" 
+                  target="_blank" 
+                  rel="noopener">
+                ${link.label}
+              </a>
             `;
+          });
+        }
+
+        card.innerHTML = `
+          <div class="card portfolioContent">
+            <img class="card-img-top" src="images/${item.image}" alt="Projet ${item.title}" loading="lazy">
+            <div class="card-body">
+                <h3 class="card-title">${item.title}</h3> 
+                <p class="card-text">${item.text}</p>
+                ${buttonsHTML}
+            </div>
+          </div>
+        `;
 
         // Append the card to the current row
         row.appendChild(card);
@@ -100,6 +127,7 @@ function createPortfolioFromJSON() {
       });
     });
 }
+
 
 // Typing effect function
 function typeWriter(element, text, speed = 100) {
@@ -122,8 +150,8 @@ document.addEventListener("DOMContentLoaded", function () {
   const heroDesc = document.querySelector(".hero_desc");
 
   // Original texts
-  const titleText = "Test";
-  const descText = "Test";
+  const titleText = "Debugging, code & passion";
+  const descText = "Bienvenue dans mon monde";
 
   // Reset for animation
   heroTitle.textContent = "";

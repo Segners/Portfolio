@@ -1,20 +1,30 @@
 [
     {
-        "image": "image1.png",
-        "title": "Booki",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "ecobliss.png",
+        "title": "Eco Bliss Bath",
+        "text": "Automatisation des tests de la boutique en ligne Eco Bliss Bath.",
+        "link": "https://github.com/Segners/FormationOC_Projet10"
     },
     {
-        "image": "image2.png",
-        "title": "Mon Vieux grimoire",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "image": "SpaceBobble.png",
+        "title": "Space Bobble",
+        "text": "Jeu co-créé inspiré de Drol créé en Java avec multijoueur possible.",
+        "link": "https://github.com/Aurel-2/SpaceBobble"
     },
     {
         "image": "image3.png",
         "title": "Kasa",
-        "text": "Lorem Ipsum is simply dummy text of the printing and typesetting industry.",
-        "link": "#"
+        "text": "Application de location immobilière crée avec React + Vite",
+        "links": [
+            {
+                "url": "https://github.com/Segners/FormationOC_Projet8",
+                "label": "Voir le projet"
+            },
+            {
+                "url": "https://open-classrooms-kasa.vercel.app",
+                "label": "Voir la démo"
+            }
+        ]
     }
 ]
+
