@@ -310,8 +310,7 @@ h3.card-title {
 
 #contact {
   color: #00ddeb;
-  background-color: #2a2a2a;
-
+  background-color: #2a2a2a !important;
 }
 .contactColumn {
   display: flex;
